@@ -1,0 +1,28 @@
+{
+  "name": "generate-to-rupiah",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The `generateToRupiah` function is used to generate random product data and save it to a JSON file. It takes a single parameter `total`, which specifies the number of products to generate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amarudinn/generate-to-rupiah.git"
+  },
+  "keywords": [
+    "generate"
+  ],
+  "author": "Amarudinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amarudinn/generate-to-rupiah/issues"
+  },
+  "homepage": "https://github.com/Amarudinn/generate-to-rupiah#readme",
+  "dependencies": {
+    "convert-to-rupiah": "^1.0.1",
+    "nodemon": "^3.1.0"
+  }
+}
